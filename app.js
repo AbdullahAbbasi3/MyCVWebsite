@@ -213,9 +213,9 @@ class PortfolioApp {
     });
 
     // Setup LinkedIn link
-    const linkedinLinks = document.querySelectorAll('a[href*="linkedin.com/in/abdullahabbasi"]');
+    const linkedinLinks = document.querySelectorAll('a[href*="linkedin.com/in/abdullahabbasipm"]');
     linkedinLinks.forEach(link => {
-      link.href = 'https://linkedin.com/in/abdullahabbasi';
+      link.href = 'https://linkedin.com/in/abdullahabbasipm';
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
     });
